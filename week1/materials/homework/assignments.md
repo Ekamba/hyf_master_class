@@ -29,4 +29,5 @@ url: `https://hyf-products-bucket.s3.amazonaws.com/christopher-was-here.json?X-A
 
 command: `aws s3 ls s3://hyf-products-bucket --human-readable --summarize`
 
-total objects: 7
+Total Objects: 7
+Total Size: 1.1 GiB
