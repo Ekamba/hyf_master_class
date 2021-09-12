@@ -21,7 +21,7 @@ filename: `christopher-was-here.json`
 
 **Assignment 3:**
 
-command: `aws s3 presign s3://hyf-products-bucket/christopher-was-here.json --expires-in 3600`
+command: `aws s3 presign s3://hyf-products-bucket/christopher-was-here.json --expires-in 3600 --region us-east-2`
 
 url: `https://hyf-products-bucket.s3.amazonaws.com/christopher-was-here.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2F346X675XN7OAVQ%2F20210905%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210905T134608Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=553348ef87ed2081fe2bc6ee9588940743073af6a8c969b2c6d0d19ae48b34d`
 
